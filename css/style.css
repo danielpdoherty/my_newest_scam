@@ -1,0 +1,90 @@
+body{
+	text-align: center;
+	background-color: black;
+}
+
+h1{
+	color: #DD4B1A;
+	font-family: 'Underdog', cursive;
+	font-size: 70px;
+	text-shadow: -1px 0 #DD4B1A, 0 1px #DD4B1A, 1px 0 #DD4B1A, 0 -1px #DD4B1A;
+	transition: background-image 3s;
+	transition: color 2.5s;
+}
+
+.fire:hover{
+	background-image: url('../img/flame.jpg');
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+	background-size: cover;
+    transition-delay: 600ms;
+}
+
+.fire h1:hover{
+	color: black;
+}
+
+.zero img {
+	width: 100%;
+}
+
+.manifesto ul{
+	list-style: none;
+	padding: 20px;
+	font-family: 'Just Another Hand', cursive;
+}
+
+.manifesto li{
+	padding: 20px;
+	letter-spacing: 4px;
+}
+
+.manifesto {
+	background-image: url("../img/maniback.png");
+	background-repeat: no-repeat;
+    background-position: center;
+	width: 75%;
+	height: 80%;
+	font-size: 110px;
+	padding: 50px;
+	margin: 20px;
+}
+
+.cigs{
+	background-image: url("../img/checker.jpg");
+    background-position: center;
+	width: 50%
+	height: 100px;
+}
+
+.beers{
+	background-image: url("../img/whitebrick.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+	width: 50%
+	height: 100px;
+}
+
+button{
+	background-image: url('../img/money.jpg');
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	font-family: 'Just Another Hand', cursive;
+	margin-top: 30px;
+	border: 1px solid black;
+}
+
+button:hover{
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-image: url('../img/gold.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h2{
+	color:green;
+	font-size: 70px;
+	font-family: 'Underdog', cursive;
+
+}
